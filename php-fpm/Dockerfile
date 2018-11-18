@@ -2,6 +2,8 @@ FROM alpine:3.8
 
 LABEL maintainer="Vincent Composieux <vincent.composieux@gmail.com>"
 
+ENV XDEBUG_VERSION 2.6.0
+
 RUN apk add --update \
     php7-fpm \
     php7-apcu \
